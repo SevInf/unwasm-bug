@@ -1,0 +1,19 @@
+{
+  "name": "unwasm-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/query-engine-wasm": "^5.11.0-15.efd2449663b3d73d637ea1fd226bafbcf45b3102",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.13.0",
+    "unwasm": "^0.3.7"
+  }
+}

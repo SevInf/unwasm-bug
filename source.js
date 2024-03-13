@@ -1,0 +1,1 @@
+import '@prisma/query-engine-wasm/sqlite/query_engine_bg.wasm'
